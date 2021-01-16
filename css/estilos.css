@@ -1,0 +1,40 @@
+body{
+    border: 1px solid black;
+    text-align: center;
+}
+.contenedor{
+    margin: 20px auto;
+    width: 90%;
+    border: 1px solid red;
+    text-align:center;
+    
+}
+.contenido{
+    border: 1px solid black;
+    display: flex;
+    align-items: center
+}
+.foto{
+    margin: 10px;
+    border: 1px solid blue;
+    width:60%;
+}
+img{
+width: 100%;
+}
+.texto{
+    margin: 10px;
+    border: 1px solid violet;
+    width:40%;
+}
+.contador{
+    flex-basis: 25%;
+    border: 1px solid green;
+}
+.tarjeta{
+    flex-basis: 33%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
