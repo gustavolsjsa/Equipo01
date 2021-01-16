@@ -1,3 +1,13 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+html {
+    font-size: 62.5%; 
+    /* Normalizar para REMS */
+}
+
 body{
     border: 1px solid black;
     text-align: center;
