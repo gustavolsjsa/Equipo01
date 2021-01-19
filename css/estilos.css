@@ -15,38 +15,81 @@ body{
     text-align: center;
 }
 .contenedor{
-    margin: 20px auto;
+    margin: 80px auto;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align:center;
     
 }
 .contenido{
-    border: 1px solid black;
+    margin: 40px 0;
+    /* border: 1px solid black; */
     display: flex;
-    align-items: center
+    justify-content:space-evenly;
+    align-items: center;
+}
+h1{
+    color:  #F09120;
 }
 .foto{
-    margin: 10px;
-    border: 1px solid blue;
-    width:60%;
+    /* margin: 10px; */
+    /* border: 1px solid blue; */
+    width:80%;
+    padding-bottom: 20px;
 }
 img{
 width: 100%;
 }
 .texto{
     margin: 10px;
-    border: 1px solid violet;
-    width:40%;
+    /* border: 1px solid violet; */
+    /* width:40%; */
+    display: block;
+    padding: 45px;
+    width:80%;
+}
+.texto h2{
+    color: #F09120;
+}
+.texto_tarjeta h3{
+    color: #F09120;
+    
+}
+
+.texto_tarjeta  table{
+    color: #ffffff;
+    padding: 15px;
+    font-size: .5 rem;
+}
+.contadores{
+    background-color: black;
+    padding: 10px 0;
 }
 .contador{
-    flex-basis: 25%;
-    border: 1px solid green;
+    flex-basis: 24%;
+    /* border: 1px solid green; */
+    font-size: 2.7rem;
+    background-color: #F09120;
+    color: #ffffff;
+    padding-top:30px;
 }
 .tarjeta{
-    flex-basis: 33%;
-    border: 1px solid green;
+    flex-basis: 27%;
+    border: 2px solid #F09120;
+    padding:20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+.texto_tarjeta{
+    margin: 10px;
+    /* border: 1px solid violet; */
+    width:40%;
+    background-color: black;
+    color:#ffffff;
+    display: block;
+    /* padding: 5px; */
+    width:80%;
+    table-align:right;
 }
