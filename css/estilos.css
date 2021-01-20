@@ -2,6 +2,10 @@
     font-family: Montserrat;
     src: url(../fonts/Montserrat-Regular.ttf);
 }
+@font-face{
+    font-family: YuseiMagic;
+    src: url(../fonts/YuseiMagic-Regular.ttf);
+}
 
 html {
     font-size: 62.5%; 
@@ -31,10 +35,38 @@ body{
 h1{
     color:  #F09120;
 }
+.portada{
+    height: 500px;
+    background-image: url(../images/flaquito.jpg);
+    background-position: center top;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido_portada{
+    color: rgb(3, 3, 3);
+    background-color: rgba(255, 255, 255,.65);
+    width: 40%;
+    height: 60%;
+    padding: 2% 4% 1% 4%;
+    /* margin:2px auto; */
+}
+.boton{
+    background-color:  #F09120;
+    padding: 8px 25px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-decoration:none;
+    color:white;
+    font-family: 'YuseiMagic';
+
+}
+
 .foto{
     /* margin: 10px; */
     /* border: 1px solid blue; */
-    width:80%;
+    width:90%;
     padding-bottom: 20px;
 }
 img{
@@ -44,15 +76,18 @@ width: 100%;
     margin: 10px;
     /* border: 1px solid violet; */
     /* width:40%; */
-    display: block;
+    /* display: block; */
     padding: 45px;
     width:80%;
+    background-color: rgb(209, 209, 209);
 }
-.texto h2{
+h2{
     color: #F09120;
+    font-family: 'YuseiMagic';
 }
-.texto_tarjeta h3{
+h3{
     color: #F09120;
+    font-family: 'YuseiMagic';
     
 }
 
@@ -61,12 +96,14 @@ width: 100%;
     padding: 15px;
     font-size: .5 rem;
 }
+
 .contadores{
-    background-color: black;
+    background-color: rgb(209, 209, 209);
     padding: 10px 0;
+    height: 200px;
 }
 .contador{
-    flex-basis: 24%;
+    flex-basis: 18%;
     /* border: 1px solid green; */
     font-size: 2.7rem;
     background-color: #F09120;
@@ -74,9 +111,9 @@ width: 100%;
     padding-top:30px;
 }
 .tarjeta{
-    flex-basis: 27%;
+    flex-basis: 24%;
     border: 2px solid #F09120;
-    padding:20px 20px;
+    padding:5px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +127,5 @@ width: 100%;
     color:#ffffff;
     display: block;
     /* padding: 5px; */
-    width:80%;
-    table-align:right;
+    width:90%;
 }
