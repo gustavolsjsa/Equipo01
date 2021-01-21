@@ -73,6 +73,7 @@ width: 100%;
     padding: 45px;
     width:80%;
     background-color: rgb(209, 209, 209);
+    background-color: #ddfdf5;
 }
 h2{
     color: #F09120;
@@ -90,7 +91,7 @@ h3{
 }
 
 .contadores{
-    background-color: rgb(209, 209, 209);
+    background-color: #ddfdf5;
     padding: 10px 0;
     height: 200px;
 }
@@ -134,8 +135,13 @@ h3{
 	background-color: #fcc839;
 	align-content: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    font-family: 'YuseiMagic';
+    font-size:larger;
+}
+.minavbar a:hover{
+color: #ddfdf5;
 }
 .titulo_principal{
     margin-top: 120px;
